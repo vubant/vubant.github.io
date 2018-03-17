@@ -1,0 +1,91 @@
+/*iphone*/
+@media screen and (max-width: 767px) {
+	.logo{
+		width: 45px;
+	    padding: 10px 0px 10px 10px;
+	}
+	.menu{
+		width: 80%;
+	}
+	.menu ul li:first-child {
+   		padding-right: 10px;
+	}
+	.menu ul li {
+	    float: right;
+	    padding: 10px 10px;
+	}
+	.banner h1 {
+	    padding-top: 40px;
+	    font-size: 30px;
+	}
+	.banner p {
+	    font-size: 22px;
+	    width: 350px;
+	    line-height: 25px;
+	    padding-top: 15px;
+	    padding-bottom: 40px;
+	}
+	.imgColumn {
+   		width: 100%;
+	}
+	.txtColumn1, .txtColumn2{
+		width: 100%;
+		float: none;
+		border-bottom: 1px solid #eeeeee;
+	}
+	.txtColumn1 h2 {
+    	padding: 10px;
+    }
+	.txtColumn1 p {
+	    width: 100%;
+	    font-size: 19px;
+	    line-height: 25px;
+	    padding: 10px;
+	    padding-top: 0px;
+	}
+	.txtColumn2 p {
+	    padding: 10px;
+	    line-height: 25px;
+	}
+	.txtColumn3, .txtColumn4, .txtColumn5 {
+	    width: 28%;
+	    padding: 10px;
+	}
+
+}
+
+/*ipad*/
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	.banner p {
+	    font-size: 30px;
+	    width: 720px;
+	}
+	.imgColumn {
+    	width: 50%;
+	}
+	.txtColumn1 {
+   		width: 50%;
+	}
+	.txtColumn1 p{
+		padding-left: 20px;
+		padding-bottom: 0px;
+	}
+    .txtColumn2 {
+	    width: 48%;
+		float: none;
+		display: inline-block;
+	}
+	.txtColumn2 p{
+		padding: 60px 0px 0px 60px;
+	}
+	.txtColumn3{
+		clear: both;
+	}
+	.txtColumn3, .txtColumn4, .txtColumn5 {
+   		width: 25%;
+   		padding: 20px 0px 20px 60px;
+	}
+	#footer ul li:first-child {
+	padding-top: 0px;
+}
+}

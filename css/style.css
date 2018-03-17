@@ -1,0 +1,99 @@
+.clear{
+	clear: both;
+	overflow: hidden;
+}
+.logo{
+	width: 70px;
+    padding: 30px 0px 30px 70px;
+    float: left;
+}
+.menu{
+	width: 65%;
+    float: right;
+}
+.menu ul{
+	list-style-type: none;
+}
+.menu ul li{
+	float: right;
+	padding: 40px 10px;
+}
+.menu ul li:first-child {
+    padding-right: 70px;
+}
+.menu ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.menu ul li:last-child a{
+	color: blue;
+}
+/*banner*/
+.banner{
+	background-color: #cacaca;
+    text-align: center;
+}
+.banner h1{
+	padding-top: 50px;
+	font-size: 50px;
+}
+.banner p{
+	font-size: 33px;
+    width: 785px;
+    line-height: 45px;
+    padding-top:20px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+}
+.imgColumn{
+	width: 25%;
+	float: left;
+}
+.imgColumn img{
+	width: 100%;
+	display: block;
+}
+#footer{
+	background-color: #000000;
+}
+.txtColumn1{
+	width: 35%;
+	float: left;
+	color: #ffffff;
+}
+.txtColumn1 h2{
+	padding: 20px;
+    font-size: 22px;
+}
+.txtColumn1 p{
+	width: 260px;
+	font-size: 19px;
+    line-height: 25px;
+    padding: 0px 0px 70px 20px;
+}
+.txtColumn2{
+	width: 30%;
+    float: left;
+    font-size: 19px;
+    color: #ffffff;
+}
+.txtColumn2 p{
+	padding: 20px;
+    line-height: 25px
+}
+.txtColumn3, .txtColumn4, .txtColumn5{
+	width: 11%;
+    float: left;
+    font-size: 19px;
+}
+#footer ul{
+	list-style-type: none;
+}
+#footer ul li:first-child{
+	padding-top: 20px;
+}
+#footer ul li a{
+	text-decoration: none;
+	line-height: 25px;
+	color: #ffffff;
+}

@@ -1,0 +1,152 @@
+.clear{
+	clear: both;
+	overflow: hidden;
+}
+.logo{
+	width: 70px;
+    padding: 30px 0px 30px 70px;
+    float: left;
+}
+.menu{
+	width: 65%;
+    float: right;
+}
+.menu ul{
+	list-style-type: none;
+}
+.menu ul li{
+	float: right;
+	padding: 40px 10px;
+}
+.menu ul li:first-child {
+    padding-right: 70px;
+}
+.menu ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.menu ul li:first-child a{
+	color: blue;
+}
+
+
+#mainContent{
+	background-color: #EEEEEE;
+	padding: 50px
+}
+.contactInfo{
+	width: 30%;
+	float: left;
+}
+.contactInfo h2{
+	font-size: 20px;
+    padding-bottom: 20px;
+}
+.contactInfo p{
+	color: #AAAAAA;
+	line-height: 20px;
+	padding-bottom: 20px;
+}
+.info p{
+	color: #AAAAAA;
+	line-height: 20px;
+}
+
+.contactInfo p strong{
+	color: #000000;
+}
+.formContact{
+	width: 70%;
+	float: right;
+	position: relative;
+}
+.name{
+	position: absolute;
+	width: 30%;
+    left: 8%;
+    padding:5px 0px;
+    color: #aaaaaa;
+}
+.email{
+	position: absolute;
+ 	width: 30%;
+    left: 46%;
+    padding:5px 0px;
+    color: #aaaaaa;
+}
+.title{
+	position: absolute;
+	width: 68%;
+    top: 50px;
+    left: 8%;
+    padding:5px 0px;
+    color: #aaaaaa;
+}
+.comment{
+	position: absolute;
+	top: 100px;
+    width: 68%;
+    height: 100px;
+    left: 8%;
+    color: #aaaaaa;
+
+}
+.message{
+	position: absolute;
+	top: 230px;
+    left: 8%;
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: #21a9a7;
+    color:#ffffff;
+}
+.googlemap{
+	width: 100%;
+    height: 400px;
+    padding-top: 90px;
+    -webkit-filter: grayscale(100%);
+}
+#footer{
+	background-color: #000000;
+}
+.txtColumn1{
+	width: 35%;
+	float: left;
+	color: #ffffff;
+}
+.txtColumn1 h2{
+	padding: 20px;
+    font-size: 22px;
+}
+.txtColumn1 p{
+	width: 260px;
+	font-size: 19px;
+    line-height: 25px;
+    padding: 0px 0px 70px 20px;
+}
+.txtColumn2{
+	width: 30%;
+    float: left;
+    font-size: 19px;
+    color: #ffffff;
+}
+.txtColumn2 p{
+	padding: 20px;
+    line-height: 25px
+}
+.txtColumn3, .txtColumn4, .txtColumn5{
+	width: 11%;
+    float: left;
+    font-size: 19px;
+}
+#footer ul{
+	list-style-type: none;
+}
+#footer ul li:first-child{
+	padding-top: 20px;
+}
+#footer ul li a{
+	text-decoration: none;
+	line-height: 25px;
+	color: #ffffff;
+}
